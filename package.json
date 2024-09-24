@@ -1,0 +1,21 @@
+{
+  "name": "ratelimiting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev index.ts",
+    "deploy": "wrangler deploy --minify index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@upstash/ratelimit": "^2.0.3",
+    "@upstash/redis": "^1.34.0",
+    "hono": "^4.6.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.8"
+  }
+}
